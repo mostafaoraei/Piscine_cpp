@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mostafaoraei/Desktop/cpp/D0/Phonebook/Contact.cpp
+Contact.h
+/Users/mostafaoraei/Desktop/cpp/D0/Phonebook/Contact.h
+iomanip
+-
+
+/Users/mostafaoraei/Desktop/cpp/D0/Phonebook/Contact.h
+iostream
+-
+
+/Users/mostafaoraei/Desktop/cpp/D0/Phonebook/main.cpp
+iostream
+-
+Contact.h
+/Users/mostafaoraei/Desktop/cpp/D0/Phonebook/Contact.h
+iomanip
+-
+
