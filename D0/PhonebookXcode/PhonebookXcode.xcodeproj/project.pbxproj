@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CEA41E9525316F3F00029FD7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA41E9425316F3F00029FD7 /* main.cpp */; };
+		CEA41E9D2531719700029FD7 /* Contact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEA41E9B2531719700029FD7 /* Contact.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CEA41E9125316F3F00029FD7 /* PhonebookXcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PhonebookXcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA41E9425316F3F00029FD7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CEA41E9B2531719700029FD7 /* Contact.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Contact.cpp; sourceTree = "<group>"; };
+		CEA41E9C2531719700029FD7 /* Contact.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Contact.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CEA41E9425316F3F00029FD7 /* main.cpp */,
+				CEA41E9B2531719700029FD7 /* Contact.cpp */,
+				CEA41E9C2531719700029FD7 /* Contact.hpp */,
 			);
 			path = PhonebookXcode;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA41E9D2531719700029FD7 /* Contact.cpp in Sources */,
 				CEA41E9525316F3F00029FD7 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
