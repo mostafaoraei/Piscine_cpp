@@ -10,5 +10,21 @@
 #define Contact_hpp
 
 #include <stdio.h>
+#include <iostream>
 
 #endif /* Contact_hpp */
+
+class Contact{
+
+public:
+    Contact();
+    void add();
+    void print();
+    
+private:
+    std::string name;
+    std::string lastName;
+    std::string middleName;
+    std::string number;
+    std::string birthday;
+};
