@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D1/Pony/Pony.cpp">
+			<Option target="Pony"/>
+		</Unit>
+		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D1/Pony/Pony.h">
+			<Option target="Pony"/>
+		</Unit>
 		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D1/Pony/main.cpp">
 			<Option target="Pony"/>
 		</Unit>

@@ -123,6 +123,33 @@ Pony/fast:
 	$(MAKE) -f CMakeFiles/Pony.dir/build.make CMakeFiles/Pony.dir/build
 .PHONY : Pony/fast
 
+Pony.o: Pony.cpp.o
+
+.PHONY : Pony.o
+
+# target to build an object file
+Pony.cpp.o:
+	$(MAKE) -f CMakeFiles/Pony.dir/build.make CMakeFiles/Pony.dir/Pony.cpp.o
+.PHONY : Pony.cpp.o
+
+Pony.i: Pony.cpp.i
+
+.PHONY : Pony.i
+
+# target to preprocess a source file
+Pony.cpp.i:
+	$(MAKE) -f CMakeFiles/Pony.dir/build.make CMakeFiles/Pony.dir/Pony.cpp.i
+.PHONY : Pony.cpp.i
+
+Pony.s: Pony.cpp.s
+
+.PHONY : Pony.s
+
+# target to generate assembly for a file
+Pony.cpp.s:
+	$(MAKE) -f CMakeFiles/Pony.dir/build.make CMakeFiles/Pony.dir/Pony.cpp.s
+.PHONY : Pony.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Pony"
+	@echo "... Pony.o"
+	@echo "... Pony.i"
+	@echo "... Pony.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

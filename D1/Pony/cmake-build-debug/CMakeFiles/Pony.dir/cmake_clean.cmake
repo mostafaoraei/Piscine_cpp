@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Pony.dir/Pony.cpp.o"
   "CMakeFiles/Pony.dir/main.cpp.o"
   "Pony"
   "Pony.pdb"

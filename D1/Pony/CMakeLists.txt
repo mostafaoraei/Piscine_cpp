@@ -3,4 +3,4 @@ project(Pony)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Pony main.cpp)
+add_executable(Pony main.cpp Pony.cpp Pony.h)
