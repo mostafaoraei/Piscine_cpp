@@ -123,6 +123,33 @@ Account/fast:
 	$(MAKE) -f CMakeFiles/Account.dir/build.make CMakeFiles/Account.dir/build
 .PHONY : Account/fast
 
+Account.class.o: Account.class.cpp.o
+
+.PHONY : Account.class.o
+
+# target to build an object file
+Account.class.cpp.o:
+	$(MAKE) -f CMakeFiles/Account.dir/build.make CMakeFiles/Account.dir/Account.class.cpp.o
+.PHONY : Account.class.cpp.o
+
+Account.class.i: Account.class.cpp.i
+
+.PHONY : Account.class.i
+
+# target to preprocess a source file
+Account.class.cpp.i:
+	$(MAKE) -f CMakeFiles/Account.dir/build.make CMakeFiles/Account.dir/Account.class.cpp.i
+.PHONY : Account.class.cpp.i
+
+Account.class.s: Account.class.cpp.s
+
+.PHONY : Account.class.s
+
+# target to generate assembly for a file
+Account.class.cpp.s:
+	$(MAKE) -f CMakeFiles/Account.dir/build.make CMakeFiles/Account.dir/Account.class.cpp.s
+.PHONY : Account.class.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Account"
+	@echo "... Account.class.o"
+	@echo "... Account.class.i"
+	@echo "... Account.class.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

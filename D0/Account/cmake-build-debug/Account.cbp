@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D0/Account/Account.class.cpp">
+			<Option target="Account"/>
+		</Unit>
 		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D0/Account/main.cpp">
 			<Option target="Account"/>
 		</Unit>
