@@ -20,9 +20,19 @@ void ponyOnTheStack() {
     std::cout << " stack age: " << stack.getAge() << std::endl;
 }
 
+void memoryLeak() {
+    std::string* panthere = new std::string("Panthere");
+    std::cout << *panthere << std::endl;
+    std::cout << panthere << std::endl;
+    delete panthere;
+    std::cout << *panthere << std::endl;
+    std::cout << panthere << std::endl;
+}
+
 int main() {
-    ponyOnTheHeap();
-    ponyOnTheStack();
+//    ponyOnTheHeap();
+//    ponyOnTheStack();
+    memoryLeak();
     return 0;
 }
 
