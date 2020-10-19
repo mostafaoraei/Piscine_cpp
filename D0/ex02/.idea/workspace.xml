@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="ex02" targetName="ex02" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b90a512f-7ee0-411f-8736-4e26647dda18" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Account/Account.class.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Account/Account.class.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Account/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Account/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Account/cmake-build-debug/Account" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Account/cmake-build-debug/Account.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Account/cmake-build-debug/Account.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Account/cmake-build-debug/CMakeFiles/Account.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Account/cmake-build-debug/CMakeFiles/Account.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Account/cmake-build-debug/CMakeFiles/Account.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Account/cmake-build-debug/CMakeFiles/Account.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Account/cmake-build-debug/CMakeFiles/Account.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Account/cmake-build-debug/CMakeFiles/Account.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Account/cmake-build-debug/CMakeFiles/Account.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Account/cmake-build-debug/CMakeFiles/Account.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Account/cmake-build-debug/CMakeFiles/Account.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Account/cmake-build-debug/CMakeFiles/Account.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Account/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Account/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1izV1knlqibepxZkFkkVZ8wBt74" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ex02" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex02" TARGET_NAME="ex02" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex02" RUN_TARGET_NAME="ex02">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b90a512f-7ee0-411f-8736-4e26647dda18" name="Default Changelist" comment="" />
+      <created>1602910194424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602910194424</updated>
+      <workItem from="1602910196522" duration="8308000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1603087872872">
+      <screen x="1280" y="-229" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1280.800/1280.-229.1920.1080/3200.-229.1920.1080@1280.-229.1920.1080" timestamp="1603087872872" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1602920890488" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1603087872869">
+      <screen x="1280" y="-229" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1280.800/1280.-229.1920.1080/3200.-229.1920.1080@1280.-229.1920.1080" timestamp="1603087872869" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1602920890486" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1603087872867">
+      <screen x="1280" y="-229" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1280.800/1280.-229.1920.1080/3200.-229.1920.1080@1280.-229.1920.1080" timestamp="1603087872867" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1602920890485" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1603087872871">
+      <screen x="1280" y="-229" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1280.800/1280.-229.1920.1080/3200.-229.1920.1080@1280.-229.1920.1080" timestamp="1603087872871" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1602920890487" />
+  </component>
+</project>
