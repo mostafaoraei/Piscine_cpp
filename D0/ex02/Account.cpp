@@ -4,8 +4,10 @@
 
 #include "Account.h"
 #include <iostream>
+#include <ctime>
 
 Account::Account(int initial_deposit) {
+    Account::_displayTimestamp();
     _amount = initial_deposit;
     _nbDeposits = 0;
     _nbWithdrawals = 0;
@@ -20,7 +22,7 @@ Account::Account(int initial_deposit) {
 
 Account::~Account() {
     _nbTotalAccount--;
-
+    Account::_displayTimestamp();
     std::cout << "index:" << _accountIndex
               << ";amount:" << _amount
               << ";closed" << std::endl;
@@ -82,7 +84,17 @@ void Account::displayStatus() const {
               << std::endl;
 }
 
-void Account::_displayTimestamp() {}
+void Account::_displayTimestamp() {
+    time_t rawtime;
+    struct tm * timeinfo;
+    char buffer [80];
+
+    time (&rawtime);
+    timeinfo = localtime (&rawtime);
+
+    std::strftime(buffer, 80, "[%Y%m%d_%H%M%S] ", timeinfo);
+    std::cout << buffer;
+}
 
 int Account::_nbTotalAccount = 0;
 int Account::_totalDeposits = 0;
