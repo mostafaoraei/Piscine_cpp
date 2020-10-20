@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mostafaoraei/Desktop/cpp/D1/ex02/ex02/Zombie.cpp
+Zombie.h
+/Users/mostafaoraei/Desktop/cpp/D1/ex02/ex02/Zombie.h
+iostream
+-
+
+/Users/mostafaoraei/Desktop/cpp/D1/ex02/ex02/Zombie.h
+string
+-
+
+/Users/mostafaoraei/Desktop/cpp/D1/ex02/ex02/ZombieEvent.cpp
+ZombieEvent.h
+/Users/mostafaoraei/Desktop/cpp/D1/ex02/ex02/ZombieEvent.h
+random
+-
+vector
+-
+iostream
+-
+
+/Users/mostafaoraei/Desktop/cpp/D1/ex02/ex02/ZombieEvent.h
+Zombie.h
+/Users/mostafaoraei/Desktop/cpp/D1/ex02/ex02/Zombie.h
+
+/Users/mostafaoraei/Desktop/cpp/D1/ex02/ex02/main.cpp
+iostream
+-
+Zombie.h
+/Users/mostafaoraei/Desktop/cpp/D1/ex02/ex02/Zombie.h
+ZombieEvent.h
+/Users/mostafaoraei/Desktop/cpp/D1/ex02/ex02/ZombieEvent.h
+
