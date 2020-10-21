@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mostafaoraei/Desktop/cpp/D1/ex06/ex06/HumanB.cpp
+HumanB.h
+/Users/mostafaoraei/Desktop/cpp/D1/ex06/ex06/HumanB.h
+iostream
+-
+
+/Users/mostafaoraei/Desktop/cpp/D1/ex06/ex06/HumanB.h
+string
+-
+Weapon.h
+/Users/mostafaoraei/Desktop/cpp/D1/ex06/ex06/Weapon.h
+
+/Users/mostafaoraei/Desktop/cpp/D1/ex06/ex06/Weapon.h
+string
+-
+
