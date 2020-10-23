@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mostafaoraei/Desktop/cpp/D1/ex09/ex09/Logger.h
+string
+-
+
+/Users/mostafaoraei/Desktop/cpp/D1/ex09/ex09/main.cpp
+iostream
+-
+Logger.h
+/Users/mostafaoraei/Desktop/cpp/D1/ex09/ex09/Logger.h
+
