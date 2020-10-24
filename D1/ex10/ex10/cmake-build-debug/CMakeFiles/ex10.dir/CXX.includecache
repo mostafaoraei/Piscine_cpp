@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mostafaoraei/Desktop/cpp/D1/ex10/ex10/Cat.h
+string
+-
+
+/Users/mostafaoraei/Desktop/cpp/D1/ex10/ex10/main.cpp
+fstream
+-
+iostream
+-
+Cat.h
+/Users/mostafaoraei/Desktop/cpp/D1/ex10/ex10/Cat.h
+
