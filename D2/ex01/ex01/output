@@ -1,0 +1,18 @@
+$> clang++ -Wall -Wextra -Werror Fixed.class.cpp main.cpp
+$> ./a.out
+Default constructor called
+Copy constructor called
+Assignation operator called // <-- This line may be missing depending of your implementation
+getRawBits member function called
+Default constructor called
+Assignation operator called
+getRawBits member function called
+getRawBits member function called
+0
+getRawBits member function called
+0
+getRawBits member function called
+0
+Destructor called
+Destructor called
+Destructor called
