@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mostafaoraei/Desktop/cpp/D2/ex01/ex01/Fixed.h
+fstream
+-
+cmath
+-
+
+/Users/mostafaoraei/Desktop/cpp/D2/ex01/ex01/main.cpp
+iostream
+-
+Fixed.h
+/Users/mostafaoraei/Desktop/cpp/D2/ex01/ex01/Fixed.h
+
