@@ -8,15 +8,15 @@
 #include <fstream>
 #include <cmath>
 
+#define BITWISE (0b11111111)
+
 class Fixed {
-    int _fixed_point_value;
-    static const int _n_fractional = 8;
-    float raw;
-    bool rawISInt;
+    int fixed_point_value_;
+    static const int n_fractional_ = 8;
+
 public:
     // default constructor
     Fixed();
-
     ~Fixed();
 
     // class constructor and initializer
@@ -26,12 +26,15 @@ public:
     // copy constructor
     Fixed(const Fixed &fixed);
 
-    // assignment operators
+    // assignment operator
     Fixed & operator=(const Fixed &fixed);
+
+    // overloading ostream operator
     friend std::ostream & operator<<(std::ostream & out ,const Fixed &fixed);
 
     // get integer part of fixed point number
     const int getRawBits() const;
+    void setRawBits(int fixed_point);
 
     // return raw values from fixed point number
     float toFloat() const;
