@@ -26,11 +26,26 @@ public:
     // copy constructor
     Fixed(const Fixed &fixed);
 
-    // assignment operator
     Fixed & operator=(const Fixed &fixed);
-
-    // overloading ostream operator
     friend std::ostream & operator<<(std::ostream & out ,const Fixed &fixed);
+
+    bool operator<(const Fixed & fixed);
+    bool operator>(const Fixed & fixed);
+    bool operator==(const Fixed & fixed);
+    bool operator<=(const Fixed & fixed);
+    bool operator>=(const Fixed & fixed);
+    bool operator!=(const Fixed & fixed);
+
+    Fixed operator+(const Fixed & fixed);
+    Fixed operator-(const Fixed & fixed);
+    Fixed operator*(const Fixed & fixed);
+    Fixed operator/(const Fixed & fixed);
+
+    Fixed & operator++(); //++i
+    Fixed & operator--();
+
+    Fixed operator++(int); //i++
+    Fixed operator--(int);
 
     // get integer part of fixed point number
     const int getRawBits() const;
@@ -40,5 +55,14 @@ public:
     float toFloat() const;
     int toInt() const;
 
+
+    static Fixed &min(Fixed fix1, Fixed fix2) {
+        return (fix1.getRawBits() > fix2.getRawBits()) ? fix2 : fix1;
+    }
+
+    static Fixed &max(Fixed fix1, Fixed fix2) {
+        return (fix1.getRawBits() < fix2.getRawBits()) ? fix2 : fix1;
+    }
 };
+
 #endif //EX00_FIXED_H
