@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/mostafaoraei/Desktop/cpp/D2/ex02/ex02/Fixed.h
+/Users/mostafaoraei/Desktop/cpp/D2/ex04/ex04/Fixed.h
 fstream
 -
 cmath
 -
 
-/Users/mostafaoraei/Desktop/cpp/D2/ex02/ex02/main.cpp
+/Users/mostafaoraei/Desktop/cpp/D2/ex04/ex04/main.cpp
 iostream
 -
 Fixed.h
-/Users/mostafaoraei/Desktop/cpp/D2/ex02/ex02/Fixed.h
+/Users/mostafaoraei/Desktop/cpp/D2/ex04/ex04/Fixed.h
+string
+-
+sstream
+-
 

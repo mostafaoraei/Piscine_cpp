@@ -33,3 +33,7 @@ int Fixed::getRawBits() const {
 void Fixed::setRawBits(const int raw) {
     _fix_value = raw;
 }
+
+Fixed::Fixed(const int raw) {
+    this->setRawBits(raw);
+}
