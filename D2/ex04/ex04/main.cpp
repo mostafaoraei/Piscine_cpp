@@ -5,101 +5,98 @@
 //#include <ostream>
 #include <sstream>
 
-Fixed eval_parantesis(std::string values[5]) {
-    int i = 0;
-    if (values[i] == "(") {
-        Fixed tmp_fix;
-        float a = std::stof(values[i + 1]);
-        std::string op = values[i + 2];
-        float b = std::stof(values[i + 3]);
-
-        if (op == "+") {
-            tmp_fix = Fixed(a) + Fixed(b);
-        } else if (op == "*") {
-            tmp_fix = Fixed(a) * Fixed(b);
-        } else {
-            tmp_fix = Fixed(a) - Fixed(b);
-        }
-        return tmp_fix;
+int counter(std::string const & expr) {
+    int counter(1);
+    for (char st : expr) {
+        if (st == ' ')
+            counter++;
     }
+    return counter++;
 }
 
+std::string * apart_exp(std::string const & expr, int const & count) {
+    int n(count);
 
-void eval_expr(std::string expr) {
-    std::string tmp_string;
-    int counter = 0;
+    std::string *expr_values = new std::string[n];
     std::istringstream ss(expr);
+    std::string tmp_string;
 
     while (ss >> tmp_string) {
-        ++counter;
+        expr_values[count - n] = tmp_string;
+        n--;
     }
+    return expr_values;
+}
 
-    std::string values[counter];
-    counter = 0;
-    std::istringstream sss(expr);
-    while (sss >> tmp_string) {
-        values[counter++] = tmp_string;
-    }
-
-    Fixed total_fix;
-    for(int i = 0; i < counter; ++i) {
-        if (values[i] == "(") {
-            std::string v[5];
-            for (int j = 0; j < 5; j++) {
-                v[j] = values[i+j];
-            }
-            i+=4;
-            total_fix = eval_parantesis(v);
-
-        } else if (values[i] == "+") {
-            if (values[i+1] == "(") {
-                i++;
-                std::string v[5];
-                for (int j = 0; j < 5; j++) {
-                    v[j] = values[i+j];
-                }
-                i+=4;
-                Fixed temp(eval_parantesis(v));
-                total_fix = total_fix + temp;
-            }else {
-                total_fix = total_fix + Fixed(std::stof(values[++i]));
-            }
-        } else if (values[i]  == "*") {
-            if (values[i+1] == "("){
-                i++;
-                std::string v[5];
-                for (int j = 0; j < 5; j++) {
-                    v[j] = values[i+j];
-                }
-                i+=4;
-                Fixed temp(eval_parantesis(v));
-                total_fix = total_fix * temp;
-            }else {
-                total_fix = total_fix * Fixed(std::stof(values[++i]));
-            }
-        } else if (values[i] == "-"){
-            if (values[i+1] == "(") {
-                i++;
-                std::string v[5];
-                for (int j = 0; j < 5; j++) {
-                    v[j] = values[i+j];
-                }
-                i+=4;
-                Fixed temp(eval_parantesis(v));
-                total_fix = total_fix - temp;
-            }else {
-                total_fix = total_fix - Fixed(std::stof(values[++i]));
-            }
-        } else {
-            total_fix = Fixed( std::stof(values[i]));
+Fixed calc_parantesis(std::string const * expr_values, int & i) {
+    int j = i+1;
+    Fixed tmp_Fixed(std::stof(expr_values[j]));
+    j++;
+    while (expr_values[j] != ")") {
+        if (expr_values[j] == "+") {
+            tmp_Fixed = tmp_Fixed + Fixed(std::stof(expr_values[j+1]));
+        } else if (expr_values[j] == "*") {
+            tmp_Fixed = tmp_Fixed * Fixed(std::stof(expr_values[j+1]));
+        } else if (expr_values[j] == "-") {
+            tmp_Fixed = tmp_Fixed - Fixed(std::stof(expr_values[j+1]));
         }
-        std::cout << total_fix << std::endl;
+        j++;
     }
+    i = j;
+    return tmp_Fixed;
+}
 
+void eval_expr(std::string expr) {
+
+    int count = counter(expr);
+
+    std::string * expr_values = apart_exp(expr, count);
+
+    int n(count);
+    Fixed total;
+
+    for (int i = 0; i < n; ++i) {
+        if (i == 0) {
+            if (expr_values[i] == "(") {
+                total = calc_parantesis(expr_values, i);
+                i++;
+            } else if (expr_values[i] != "(") {
+                total = Fixed(std::stof(expr_values[i]));
+                i++;
+            }
+        }
+
+        if (expr_values[i] == "+") {
+            i++;
+            if (expr_values[i] == "(") {
+                total = total + calc_parantesis(expr_values, i);
+            } else {
+                total = total + Fixed(std::stof(expr_values[i]));
+            }
+        } else if (expr_values[i] == "*") {
+            i++;
+            if (expr_values[i] == "(") {
+                total = total * calc_parantesis(expr_values, i);
+            } else {
+                total = total * Fixed(std::stof(expr_values[i]));
+            }
+        } else if (expr_values[i] == "-") {
+            i++;
+            if (expr_values[i] == "(") {
+                total = total - calc_parantesis(expr_values, i);
+            } else {
+                total = total - Fixed(std::stof(expr_values[i]));
+            }
+        }
+    }
+    delete [] expr_values;
+
+    std::cout << total << std::endl;
 }
 
 int main(int argc, char* argv[]) {
-//    "( 18.18 + 3.03 ) * 2"
+//    "2 * ( 18.18 + 3.03 ) * 2"
     eval_expr(argv[1]);
+
     return 0;
 }
