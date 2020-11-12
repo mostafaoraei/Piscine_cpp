@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/FragTrap.cpp
+FragTrap.h
+/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/FragTrap.h
+iostream
+-
+random
+-
+
+/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/FragTrap.h
+string
+-
+
