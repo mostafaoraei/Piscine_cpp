@@ -80,10 +80,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ClapTrap.cpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ClapTrap.h">
+			<Option target="ex00"/>
+		</Unit>
 		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/FragTrap.cpp">
 			<Option target="ex00"/>
 		</Unit>
 		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/FragTrap.h">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/NinjaTrap.cpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/NinjaTrap.h">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ScavTrap.cpp">
+			<Option target="ex00"/>
+		</Unit>
+		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ScavTrap.h">
 			<Option target="ex00"/>
 		</Unit>
 		<Unit filename="/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/main.cpp">

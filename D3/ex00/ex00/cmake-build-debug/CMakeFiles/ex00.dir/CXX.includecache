@@ -6,15 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/FragTrap.cpp
-FragTrap.h
-/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/FragTrap.h
-iostream
--
-random
+/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ClapTrap.h
+string
 -
 
 /Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/FragTrap.h
 string
 -
+ClapTrap.h
+/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ClapTrap.h
+
+/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ScavTrap.cpp
+ScavTrap.h
+/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ScavTrap.h
+
+/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ScavTrap.h
+string
+-
+iostream
+-
+random
+-
+ClapTrap.h
+/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ClapTrap.h
+
+/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/main.cpp
+iostream
+-
+FragTrap.h
+/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/FragTrap.h
+ScavTrap.h
+/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ScavTrap.h
 

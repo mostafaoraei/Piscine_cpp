@@ -83,19 +83,64 @@ CMakeFiles/ex00.dir/FragTrap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/FragTrap.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/FragTrap.cpp -o CMakeFiles/ex00.dir/FragTrap.cpp.s
 
+CMakeFiles/ex00.dir/ScavTrap.cpp.o: CMakeFiles/ex00.dir/flags.make
+CMakeFiles/ex00.dir/ScavTrap.cpp.o: ../ScavTrap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ex00.dir/ScavTrap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/ScavTrap.cpp.o -c /Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ScavTrap.cpp
+
+CMakeFiles/ex00.dir/ScavTrap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex00.dir/ScavTrap.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ScavTrap.cpp > CMakeFiles/ex00.dir/ScavTrap.cpp.i
+
+CMakeFiles/ex00.dir/ScavTrap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/ScavTrap.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ScavTrap.cpp -o CMakeFiles/ex00.dir/ScavTrap.cpp.s
+
+CMakeFiles/ex00.dir/ClapTrap.cpp.o: CMakeFiles/ex00.dir/flags.make
+CMakeFiles/ex00.dir/ClapTrap.cpp.o: ../ClapTrap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ex00.dir/ClapTrap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/ClapTrap.cpp.o -c /Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ClapTrap.cpp
+
+CMakeFiles/ex00.dir/ClapTrap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex00.dir/ClapTrap.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ClapTrap.cpp > CMakeFiles/ex00.dir/ClapTrap.cpp.i
+
+CMakeFiles/ex00.dir/ClapTrap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/ClapTrap.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/ClapTrap.cpp -o CMakeFiles/ex00.dir/ClapTrap.cpp.s
+
+CMakeFiles/ex00.dir/NinjaTrap.cpp.o: CMakeFiles/ex00.dir/flags.make
+CMakeFiles/ex00.dir/NinjaTrap.cpp.o: ../NinjaTrap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ex00.dir/NinjaTrap.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ex00.dir/NinjaTrap.cpp.o -c /Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/NinjaTrap.cpp
+
+CMakeFiles/ex00.dir/NinjaTrap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex00.dir/NinjaTrap.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/NinjaTrap.cpp > CMakeFiles/ex00.dir/NinjaTrap.cpp.i
+
+CMakeFiles/ex00.dir/NinjaTrap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex00.dir/NinjaTrap.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/NinjaTrap.cpp -o CMakeFiles/ex00.dir/NinjaTrap.cpp.s
+
 # Object files for target ex00
 ex00_OBJECTS = \
 "CMakeFiles/ex00.dir/main.cpp.o" \
-"CMakeFiles/ex00.dir/FragTrap.cpp.o"
+"CMakeFiles/ex00.dir/FragTrap.cpp.o" \
+"CMakeFiles/ex00.dir/ScavTrap.cpp.o" \
+"CMakeFiles/ex00.dir/ClapTrap.cpp.o" \
+"CMakeFiles/ex00.dir/NinjaTrap.cpp.o"
 
 # External object files for target ex00
 ex00_EXTERNAL_OBJECTS =
 
 ex00: CMakeFiles/ex00.dir/main.cpp.o
 ex00: CMakeFiles/ex00.dir/FragTrap.cpp.o
+ex00: CMakeFiles/ex00.dir/ScavTrap.cpp.o
+ex00: CMakeFiles/ex00.dir/ClapTrap.cpp.o
+ex00: CMakeFiles/ex00.dir/NinjaTrap.cpp.o
 ex00: CMakeFiles/ex00.dir/build.make
 ex00: CMakeFiles/ex00.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ex00"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mostafaoraei/Desktop/cpp/D3/ex00/ex00/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ex00"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex00.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
